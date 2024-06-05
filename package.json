@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.0.7",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "PatocheLauncher",
+    "preductname": "PatocheLauncher",
+    "version": "1.0.1",
+    "description": "SERVEUR PVP FACTION MODDE",
     "main": "src/app.js",
     "author": {
         "name": "luuxis, Inc.",
         "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "url": "http://launcher.patoche.fr"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "https://glaived-teeth.000webhostapp.com/",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=<a href=https://www.freeiconspng.com/img/40685"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/ZerokTV/PatocheLauncher.git"
     }
 }
